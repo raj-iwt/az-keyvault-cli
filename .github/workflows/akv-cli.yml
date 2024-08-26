@@ -21,10 +21,10 @@ jobs:
         run: dir
 
       - name: Install dependencies
-        run: dotnet restore ./src/akv-cli.sln
+        run: dotnet restore ./src/akv-cli/akv-cli.sln
 
       - name: Build project
-        run: dotnet build ./src/akv-cli.sln --configuration Release --no-restore
+        run: dotnet build ./src/akv-cli/akv-cli.sln --configuration Release --no-restore
 
       - name: Publish project
         run: dotnet publish --project ./src/akv-cli/akv-cli.csproj --configuration Release --output ./publish --no-build
