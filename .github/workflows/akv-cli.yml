@@ -27,7 +27,7 @@ jobs:
         run: dotnet build ./src/akv-cli/akv-cli.sln --configuration Release --no-restore
 
       - name: Publish project
-        run: dotnet publish --project ./src/akv-cli/akv-cli.csproj --configuration Release --output ./publish --no-build
+        run: dotnet publish ./src/akv-cli/akv-cli.sln --configuration Release --output ./publish --no-build
 
       - name: Create release directory
         run: mkdir -p release
