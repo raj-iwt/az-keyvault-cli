@@ -19,10 +19,10 @@ jobs:
           dotnet-version: '6.x'  # Specify the .NET version you are using
 
       - name: Install dependencies
-        run: dotnet restore
+        run: dotnet restore ./src/akv-cli.sln
 
       - name: Build project
-        run: dotnet build ./src/akv-cli/akv-cli.csproj --configuration Release --no-restore
+        run: dotnet build ./src/akv-cli.sln --configuration Release --no-restore
 
       - name: Publish project
         run: dotnet publish ./src/akv-cli/akv-cli.csproj --configuration Release --output ./publish --no-build
