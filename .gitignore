@@ -1,1 +1,7 @@
 src/akv-cli/keyvault_config.json
+
+/src/akv-cli/obj/
+/src/akv-cli/bin/
+
+**/obj/
+**/bin/

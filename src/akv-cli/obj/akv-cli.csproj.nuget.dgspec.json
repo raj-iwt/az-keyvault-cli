@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\raj-iwt\\az-keyvault-cli\\src\\akv-cli\\akv-cli.csproj": {}
+    "C:\\Users\\rajbe\\source\\repos\\az-keyvault-cli\\src\\akv-cli\\akv-cli.csproj": {}
   },
   "projects": {
-    "D:\\raj-iwt\\az-keyvault-cli\\src\\akv-cli\\akv-cli.csproj": {
+    "C:\\Users\\rajbe\\source\\repos\\az-keyvault-cli\\src\\akv-cli\\akv-cli.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\raj-iwt\\az-keyvault-cli\\src\\akv-cli\\akv-cli.csproj",
+        "projectUniqueName": "C:\\Users\\rajbe\\source\\repos\\az-keyvault-cli\\src\\akv-cli\\akv-cli.csproj",
         "projectName": "akv-cli",
-        "projectPath": "D:\\raj-iwt\\az-keyvault-cli\\src\\akv-cli\\akv-cli.csproj",
-        "packagesPath": "C:\\Users\\rpalaniyappan\\.nuget\\packages\\",
-        "outputPath": "D:\\raj-iwt\\az-keyvault-cli\\src\\akv-cli\\obj\\",
+        "projectPath": "C:\\Users\\rajbe\\source\\repos\\az-keyvault-cli\\src\\akv-cli\\akv-cli.csproj",
+        "packagesPath": "C:\\Users\\rajbe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rajbe\\source\\repos\\az-keyvault-cli\\src\\akv-cli\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\rpalaniyappan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rajbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -23,8 +27,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.myget.org/F/ais-root/auth/e8335f60-7d20-4186-9a7e-08b6dbd6ad71/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -80,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

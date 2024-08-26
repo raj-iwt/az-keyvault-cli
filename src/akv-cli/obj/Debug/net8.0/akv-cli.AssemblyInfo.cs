@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("akv-cli")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6407b29587be142d0e821e99434e912b3322b6e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d848edbd07fc57b298348ee81d0f9c330c102350")]
 [assembly: System.Reflection.AssemblyProductAttribute("akv-cli")]
 [assembly: System.Reflection.AssemblyTitleAttribute("akv-cli")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
