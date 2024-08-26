@@ -17,6 +17,8 @@ jobs:
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '6.x'  # Specify the .NET version you are using
+      - name: Install dependencies
+        run: dir
 
       - name: Install dependencies
         run: dotnet restore ./src/akv-cli.sln
@@ -25,7 +27,7 @@ jobs:
         run: dotnet build ./src/akv-cli.sln --configuration Release --no-restore
 
       - name: Publish project
-        run: dotnet publish ./src/akv-cli/akv-cli.csproj --configuration Release --output ./publish --no-build
+        run: dotnet publish --project ./src/akv-cli/akv-cli.csproj --configuration Release --output ./publish --no-build
 
       - name: Create release directory
         run: mkdir -p release
